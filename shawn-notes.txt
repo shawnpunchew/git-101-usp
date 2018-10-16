@@ -46,4 +46,10 @@ git status
 git diff
 	shows the changes that have been made that have been yet to be committed in the WORKING DIRECTORY
 
+git log
+	shows the different versions of commits
+
+git log --oneline
+	shows a summary of the different versions of commits 
+
 colon+ Q to quit text editor(VIMP)
