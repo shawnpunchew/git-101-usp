@@ -25,5 +25,8 @@ ctrl + L to clear the terminal in BASH
 git config --list to see current config
 
 git add -> from working directory to staging area
-git commit -> from staging area to repository
+git commit -m "filename" -> from staging area to repository
 
+git status (red txt file is still in the cardboard box (working directory), add will shift to the wooden box (staging area) which will change it to green)
+
+colon+ Q to quit text editor(VIMP)
