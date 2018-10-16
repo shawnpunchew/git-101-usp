@@ -53,3 +53,17 @@ git log --oneline
 	shows a summary of the different versions of commits 
 
 colon+ Q to quit text editor(VIMP)
+
+=== Section 3: Time Travelling
+==========
+
+git log --all 
+	shows complete history regardless of where the head is
+
+git checkout [commit-id]
+	switches workspace to the version at that commit-id
+
+git log --all --oneline
+
+git checkout master
+	brings you to the most recent id
