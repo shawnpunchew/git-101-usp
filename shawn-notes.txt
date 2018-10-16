@@ -22,11 +22,28 @@ pwd
 tab to auto-complete 
 ctrl + L to clear the terminal in BASH
 
+=== Section 2: GIT Basics
+================
+
+git init to initialise any project
+
 git config --list to see current config
 
-git add -> from working directory to staging area
-git commit -m "filename" -> from staging area to repository
+git add 
+	move from working directory to staging area (tells git to start tracking a file)
 
-git status (red txt file is still in the cardboard box (working directory), add will shift to the wooden box (staging area) which will change it to green)
+git commit -m "MESSAGE" 
+	commit changes from staging area to repository
+	message is like a reason for creating a new version of the file cos GIT IS PARANOID
+
+git status 
+	status of working directory 
+	(red txt file is still in the cardboard box (working directory), add will shift to the wooden box (staging area) which will change it to green)
+	does 2 checks:
+		- compares wooden box and cardboard box, whatever is not in the wooden box (staging area) will be shown in red
+		- compares wooden box and metal box, whatever is not in the repository will be shown in GREEN
+
+git diff
+	shows the changes that have been made that have been yet to be committed in the WORKING DIRECTORY
 
 colon+ Q to quit text editor(VIMP)
